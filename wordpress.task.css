@@ -43,7 +43,7 @@ main .container p{
 }
 
 main {
-    background: url('wordpress.png') 90% 50%/cover;
+    background: url('img/wordpress.png') 90% 50%/cover;
     height: max-content;
     height: 100vh;
     background-attachment: fixed;
@@ -130,7 +130,7 @@ main {
 }
 
 .parallax {
-    background: url('parallax.png') 90% 50%/cover;
+    background: url('img/parallax.png') 90% 50%/cover;
     height: 100vh;
     background-attachment: fixed;
     background-size: cover;
@@ -238,7 +238,7 @@ font-size: 1.1rem;
 }
    
 .slide {
-    background: url('slide.png') 90% 50%/cover;
+    background: url('img/slide.png') 90% 50%/cover;
     height: 100vh;
     width: 100vw;
     background-attachment: fixed;
