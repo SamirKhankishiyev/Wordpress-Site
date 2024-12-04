@@ -1,0 +1,422 @@
+header {
+    background-color: white;
+    text-align: center;
+}
+
+nav li {
+    color: black;
+    list-style: none;
+    margin-top: 12px;
+}
+
+nav p {
+    font: 1.5em Arial, Helvetica, sans-serif;
+    color: #000;
+    padding: 20px 0 20px 35px;
+}
+
+menu li a {
+    font:.9rem Arial, Helvetica, sans-serif; 
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+main  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .container h1{
+    font: 3.3em Arial, Helvetica, sans-serif;
+    color: #fff;
+    max-width: 600px;
+    text-align: center;
+}
+
+main .container p{
+    font: 0.9em Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    margin: 30px 30px 30px 80px;
+}
+
+main {
+    background: url('wordpress.png') 90% 50%/cover;
+    height: max-content;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bt1 {
+    background-color: rgb(91, 35, 182);
+    color: white;
+    padding: 20px 30px;
+    border: 0;
+    margin: 0 10px 0 0;
+}
+
+.bt2 {
+    background: transparent;
+    color: white;
+    padding: 20px 30px;
+    border: 1px solid white;
+}
+
+.buttons .bt1:hover {
+    background-color: rgb(35, 1, 89);
+    color: white;   
+}
+
+.buttons .bt2:hover {
+    background-color: white;
+    color: black;   
+}
+
+.container1 img {
+    max-width: 100%;
+}
+
+.seo h2 {
+    font: 2em Arial, Helvetica, sans-serif;
+    color: #000;
+    text-align: left;
+    padding: 30px 30px 30px 110px;
+}
+
+.seo p {
+    font: 0.8em Arial, Helvetica, sans-serif;
+    color: #807b7b;
+    text-align: left;
+    padding: 0 20px 20px 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.seo .bt1 {
+    margin: 30px 30px 30px 110px;
+    padding: 20px 50px 20px 50px;
+}
+
+.portfolio {
+    background-color: #ded7d7;
+    text-align: justify;
+}
+
+.portfolio h2 {
+    font: 2em Arial, Helvetica, sans-serif;
+    color: #000;
+    padding: 80px 0 20px 110px;
+}
+
+.portfolio p {
+    font: 0.8em Arial, Helvetica, sans-serif;
+    color: #807b7b;
+    padding: 10px 0 20px 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.portfolio .bt1 {
+    margin: 30px 30px 30px 110px;
+    padding: 20px 50px 20px 50px;
+}
+
+.parallax {
+    background: url('parallax.png') 90% 50%/cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    padding: 20px;
+}
+
+.parallax h2 {
+    font: 2em Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.parallax p {
+    font: 0.8em Arial, Helvetica, sans-serif;
+    color:#fff;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.bt1:hover {
+    background-color: rgb(35, 1, 89);
+    color: white;
+}
+
+.limitless {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.limitless h2 {
+    font: 2em Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.limitless p {
+    font: 0.8em Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.limitless .bt1 {
+    margin-bottom: 50px;
+}
+
+.lst img {
+    width: 100vw;
+    display: initial;
+}
+
+.galery {
+    background-color: #000;
+    padding: 40px 0;
+    color: #fff;
+    width: 100vw;
+}
+
+.galery h2{
+    color: #fff;
+    font: 2.1em Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.galery h6 {
+    color: white;
+    font: 0.8em Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+}
+
+.photos div {
+    width: 100vw;
+    position: relative;
+}
+.photos div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h5 {
+background: rgb(0, 0, 0);
+background: linear-gradient(0deg, rgba(33, 31, 31, 0.34) 23%, rgba(0, 0, 0, 0.4929621506805847) 88%);
+height: 100%;
+width: 100%;
+position: absolute;
+right: 0;
+bottom: -28px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 1.1rem;
+}
+   
+.slide {
+    background: url('slide.png') 90% 50%/cover;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    max-height: 500px;
+}
+
+.slide h2 {
+    color: #fff;
+    font: 2em Arial, Helvetica, sans-serif;
+}
+
+.slide h6{
+    width: 60%;
+    font: 1em Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.slide img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+.clients {
+    height: 300px ;
+}
+
+.clients h4 {
+    color: #000;
+    font: 3em Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.clients i {
+    background-color: #fff;
+    font-size: 5em;
+    letter-spacing: 75px;
+}
+
+
+.clients .fa-facebook:hover {color: rgb(4, 0, 255);}
+.clients .fa-whatsapp:hover {color: rgb(40, 210, 40);}
+.clients .fa-instagram:hover {color: rgb(188, 52, 211);}
+.clients .fa-youtube:hover {color: rgb(249, 5, 5);}
+
+.opinion {
+    background-color: rgb(184, 184, 179);
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.opinion h4{
+    font: 2em black Arial, Helvetica, sans-serif;
+    padding-top: 28px;
+}
+
+.opinion .bt1 {
+    margin-top: 65px;
+}
+
+footer {
+    background-color: #000;
+    height: 200px;
+    width: 100vw;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h6{
+    font: 1.1em Arial, Helvetica, sans-serif;
+}
+
+footer i {
+    font-size: 1.2em;
+    letter-spacing: 10px;
+}
+
+footer .fa-facebook:hover {color: rgb(91, 35, 182);}
+footer .fa-twitter:hover {color: rgb(91, 35, 182);}
+footer .fa-linkedin:hover {color: rgb(91, 35, 182);}
+footer .fa-instagram:hover {color: rgb(91, 35, 182);}
+footer .fa-youtube:hover {color: rgb(91, 35, 182);}
+
+@media only screen and (min-width: 768px) {
+    header {
+      position: fixed;
+      width: 100%;
+    }
+  
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+  
+    menu {display: flex;}
+  
+    menu li {padding: 0 15px;}
+  
+    main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .container1 img {max-width: 50%;}
+  
+    .container1 .seo{
+      display: flex;
+      justify-content: center;
+    }
+
+    .container1 .portfolio{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: center;
+    }
+  
+    .container1 col h2, p {
+      padding: 20px;
+      justify-content: center;
+      max-width: 66%;
+      margin-left: 80px;
+    }
+  
+    .parallax h2 {
+      color: #fff;
+      margin-bottom: 15px
+    }
+  
+    .parallax p {
+      line-height: 24px;
+      color: #fff;
+      max-width: 700px;
+    }
+  
+    .limitless h2 {
+      padding: 10px 0;
+    }
+  
+    .limitless p {
+      max-width: 600px;
+      color: #abb8c3;
+      line-height: 1.5em;
+      padding: 15px;
+    }
+
+    .photos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .photos div {
+        width: 25%;
+    }
+
+    h5 {
+            width: 100%;
+            height: 0;
+            overflow: hidden;
+            transition: .5s ease-in-out;
+    }
+
+    .photos div:hover h5 {
+        height: 100%;
+        width: 100%;
+    }
+  }
